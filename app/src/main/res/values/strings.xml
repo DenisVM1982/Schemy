@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Схемы-0.1</string>
+    <string-array name="ceh">
+        <item>Конвертерный</item>
+        <item>Доменный</item>
+    </string-array>
+    <string-array name="uchastkiKonverterny">
+        <item>Прессовый</item>
+        <item>Порошки</item>
+        <item>Стальковши</item>
+        <item>Промковши</item>
+        <item>Шиберная</item>
+        <item>УШС</item>
+    </string-array>
+    <string-array name="pressovy">
+        <item>Участок помола</item>
+        <item>Участок рассева</item>
+        <item>Участок закачки</item>
+        <item>Участок перекачки</item>
+        <item>1-я техлиния</item>
+        <item>2-я техлиния</item>
+        <item>3-я техлиния</item>
+        <item>4-я техлиния</item>
+        <item>5-я техлиния</item>
+        <item>пресс №1</item>
+        <item>пресс №2</item>
+        <item>пресс №3</item>
+        <item>пресс №4</item>
+    </string-array>
+
+</resources>
