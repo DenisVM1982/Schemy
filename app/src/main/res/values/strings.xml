@@ -12,6 +12,17 @@
         <item>Шиберная</item>
         <item>УШС</item>
     </string-array>
+    <string-array name="uchastkiDomenny">
+        <item>Участок обработка</item>
+        <item>Участок глиномялка</item>
+    </string-array>
+    <string-array name="kran_10_3">
+        <item>механизм передвижения малой тележки</item>
+        <item>механизм передвижения главной тележки</item>
+        <item>механизм малого подъемаи</item>
+        <item>механизм главного подъема</item>
+        <item>ход моста</item>
+    </string-array>
     <string-array name="pressovy">
         <item>Участок помола</item>
         <item>Участок рассева</item>
@@ -27,5 +38,6 @@
         <item>пресс №3</item>
         <item>пресс №4</item>
     </string-array>
+
 
 </resources>

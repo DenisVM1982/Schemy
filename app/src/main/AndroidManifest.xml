@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DomennyActivity"></activity>
+        <activity android:name=".HodMaloyTelegiActivity"></activity>
+        <activity android:name=".DomennyActivity" />
         <activity android:name=".PictureActivity" />
         <activity android:name=".UchastokPomolaActivity" />
         <activity android:name=".PressovyActivity" />
