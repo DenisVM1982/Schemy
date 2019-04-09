@@ -18,17 +18,17 @@ public class ObrabotkaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_obrabotka);
 
-        obrabotka= (ListView) findViewById(R.id.menu2);
+        obrabotka= (ListView) findViewById(R.id.obrabotka);
 
-        ArrayAdapter<CharSequence> adapter2 = ArrayAdapter.createFromResource(
+        ArrayAdapter<CharSequence> obrabotkaAdapter = ArrayAdapter.createFromResource(
                 this, R.array.obrabotka, android.R.layout.simple_list_item_1);
-        obrabotka.setAdapter(adapter2);
+        obrabotka.setAdapter(obrabotkaAdapter);
 
         obrabotka.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
                 if(id == 0){
-                    Intent intent = new Intent(ObrabotkaActivity.this, PressovyActivity.class);
+                    Intent intent = new Intent(ObrabotkaActivity.this, Kran_10_3Activity.class);
                     startActivity(intent);}
 
             }
