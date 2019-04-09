@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 import com.github.chrisbanes.photoview.PhotoView;
 
-public class HodBolshoyTelegi extends AppCompatActivity {
+public class HodBolshoyTelegiActivity extends AppCompatActivity {
 
 
     @Override

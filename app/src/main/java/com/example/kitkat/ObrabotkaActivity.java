@@ -28,7 +28,7 @@ public class ObrabotkaActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
                 if(id == 0){
-                    Intent intent = new Intent(ObrabotkaActivity.this, KranActivity.class);
+                    Intent intent = new Intent(ObrabotkaActivity.this, Kran_10_3Activity.class);
                     startActivity(intent);}
 
             }

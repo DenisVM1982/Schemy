@@ -8,7 +8,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class KranActivity extends AppCompatActivity {
+public class Kran_10_3Activity extends AppCompatActivity {
 
 
     ListView kran;
@@ -17,7 +17,7 @@ public class KranActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kran);
+        setContentView(R.layout.activity_kran_10_3);
 
         kran= (ListView) findViewById(R.id.kran);
 
@@ -29,7 +29,10 @@ public class KranActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
                 if(id == 0){
-                    Intent intent = new Intent(KranActivity.this, HodMaloyTelegiActivity.class);
+                    Intent intent = new Intent(Kran_10_3Activity.this, HodMaloyTelegiActivity.class);
+                    startActivity(intent);}
+                if(id == 1){
+                    Intent intent = new Intent(Kran_10_3Activity.this, HodBolshoyTelegiActivity.class);
                     startActivity(intent);}
 
             }
