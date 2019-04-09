@@ -30,6 +30,9 @@ public class CehActivity extends AppCompatActivity {
                 if(id == 0){
                     Intent intent = new Intent(CehActivity.this, KonverternyActivity.class);
                     startActivity(intent);}
+                if(id == 1){
+                    Intent intent = new Intent(CehActivity.this, DomennyActivity.class);
+                    startActivity(intent);}
 
             }
         });

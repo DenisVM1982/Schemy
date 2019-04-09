@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Схемы-0.1</string>
+    <string name="app_name">Схемы-0.22</string>
     <string-array name="ceh">
         <item>Конвертерный</item>
         <item>Доменный</item>
@@ -37,6 +37,10 @@
         <item>пресс №2</item>
         <item>пресс №3</item>
         <item>пресс №4</item>
+    </string-array>
+    <string-array name="obrabotka">
+        <item>Кран 10-3</item>
+        <item>Тельфер</item>
     </string-array>
 
 
