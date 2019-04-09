@@ -8,7 +8,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class Main3Activity extends AppCompatActivity {
+public class PressovyActivity extends AppCompatActivity {
 
     ListView menu3;
 
@@ -16,7 +16,7 @@ public class Main3Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.activity_pressovy);
 
         menu3 = (ListView) findViewById(R.id.menu2);
 
@@ -28,7 +28,7 @@ public class Main3Activity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
                 if(id == 0){
-                    Intent intent = new Intent(Main3Activity.this, PictureActivity.class);
+                    Intent intent = new Intent(PressovyActivity.this, PictureActivity.class);
                     startActivity(intent);}
 
             }

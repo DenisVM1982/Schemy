@@ -11,10 +11,10 @@
         android:theme="@style/AppTheme">
         <activity android:name=".DomennyActivity"></activity>
         <activity android:name=".PictureActivity" />
-        <activity android:name=".Main4Activity" />
-        <activity android:name=".Main3Activity" />
-        <activity android:name=".Main2Activity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".UchastokPomolaActivity" />
+        <activity android:name=".PressovyActivity" />
+        <activity android:name=".KonverternyActivity" />
+        <activity android:name=".CehActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
