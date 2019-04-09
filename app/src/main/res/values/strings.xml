@@ -16,7 +16,7 @@
         <item>Участок обработка</item>
         <item>Участок глиномялка</item>
     </string-array>
-    <string-array name="kran_10_3">
+    <string-array name="kran">
         <item>механизм передвижения малой тележки</item>
         <item>механизм передвижения главной тележки</item>
         <item>механизм малого подъемаи</item>

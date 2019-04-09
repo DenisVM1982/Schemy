@@ -13,7 +13,7 @@ public class HodMaloyTelegiActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_picture);
+        setContentView(R.layout.activity_hod_maloy_telegi);
 
         PhotoView photoView = (PhotoView) findViewById(R.id.hod_maloy_telegi);
         photoView.setImageResource(R.drawable.hod_maloy_telegi);

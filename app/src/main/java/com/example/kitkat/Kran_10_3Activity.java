@@ -8,27 +8,28 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class ObrabotkaActivity extends AppCompatActivity {
+public class KranActivity extends AppCompatActivity {
 
-    ListView obrabotka;
+
+    ListView kran;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_obrabotka);
+        setContentView(R.layout.activity_kran);
 
-        obrabotka= (ListView) findViewById(R.id.obrabotka);
+        kran= (ListView) findViewById(R.id.kran);
 
-        ArrayAdapter<CharSequence> obrabotkaAdapter = ArrayAdapter.createFromResource(
-                this, R.array.obrabotka, android.R.layout.simple_list_item_1);
-        obrabotka.setAdapter(obrabotkaAdapter);
+        ArrayAdapter<CharSequence> kranAdapter = ArrayAdapter.createFromResource(
+                this, R.array.kran, android.R.layout.simple_list_item_1);
+        kran.setAdapter(kranAdapter);
 
-        obrabotka.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        kran.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
                 if(id == 0){
-                    Intent intent = new Intent(ObrabotkaActivity.this, KranActivity.class);
+                    Intent intent = new Intent(KranActivity.this, HodMaloyTelegiActivity.class);
                     startActivity(intent);}
 
             }
