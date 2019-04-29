@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Схемы-0.33</string>
+    <string name="app_name">Схемы-0.35</string>
     <string-array name="ceh">
         <item>Конвертерный</item>
         <item>Доменный</item>
@@ -38,6 +38,7 @@
         <item>Участок рассева</item>
         <item>Участок закачки</item>
         <item>Участок перекачки</item>
+        <item>Вентиляции</item>
         <item>1-я техлиния</item>
         <item>2-я техлиния</item>
         <item>3-я техлиния</item>
@@ -48,10 +49,29 @@
         <item>пресс №3</item>
         <item>пресс №4</item>
     </string-array>
+
+    <string-array name="perekachka">
+        <item>запуск линии</item>
+        <item>конвейер №1</item>
+        <item>конвейер №2</item>
+        <item>конвейер №4</item>
+        <item>конвейер №5</item>
+        <item>конвейер №10</item>
+
+    </string-array>
+    <string-array name="ventilyacii">
+        <item>ВУ-2</item>
+        <item>ВУ-3</item>
+        <item>ВУ-7</item>
+        <item>ВУ-24</item>
+        <item>ВУ-25</item>
+
+    </string-array>
     <string-array name="obrabotka">
         <item>Кран 10-3</item>
         <item>Тельфер</item>
     </string-array>
+    <string name="title_activity_vu2">VU2Activity</string>
 
 
 </resources>
