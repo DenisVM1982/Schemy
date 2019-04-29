@@ -30,6 +30,9 @@ public class KonverternyActivity extends AppCompatActivity {
                 if(id == 0){
                     Intent intent = new Intent(KonverternyActivity.this, PressovyActivity.class);
                     startActivity(intent);}
+                if(id == 1){
+                    Intent intent = new Intent(KonverternyActivity.this, PoroshkiActivity.class);
+                    startActivity(intent);}
 
             }
         });
