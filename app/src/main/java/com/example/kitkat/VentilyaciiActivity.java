@@ -41,6 +41,10 @@ public class VentilyaciiActivity extends AppCompatActivity {
                 if(id == 4){
                     Intent intent = new Intent(VentilyaciiActivity.this, VU25Activity.class);
                     startActivity(intent);}
+                if(id == 5){
+                    Intent intent = new Intent(VentilyaciiActivity.this, Konveyer9Activity.class);
+                    startActivity(intent);}
+
 
             }
         });

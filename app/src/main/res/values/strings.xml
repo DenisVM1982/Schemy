@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Схемы-0.35</string>
+    <string name="app_name">Схемы-0.37</string>
     <string-array name="ceh">
         <item>Конвертерный</item>
         <item>Доменный</item>
@@ -59,13 +59,22 @@
         <item>конвейер №10</item>
 
     </string-array>
+
+    <string-array name="zakachka">
+        <item>запуск линии 1 лист</item>
+        <item>запуск линии 2 лист</item>
+        <item>запуск линии 3 лист</item>
+        <item>запуск линии 4 лист</item>
+
+
+    </string-array>
     <string-array name="ventilyacii">
         <item>ВУ-2</item>
         <item>ВУ-3</item>
         <item>ВУ-7</item>
         <item>ВУ-24</item>
         <item>ВУ-25</item>
-
+        <item>конвейер №9</item>
     </string-array>
     <string-array name="obrabotka">
         <item>Кран 10-3</item>

@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/NoActionBarTheme">
-        <activity android:name=".Konveyer10Activity"></activity>
+        <activity android:name=".ZapuskZakachki4Activity"></activity>
+        <activity android:name=".ZapuskZakachki3Activity" />
+        <activity android:name=".ZapuskZakachki2Activity" />
+        <activity android:name=".ZapuskZakachki1Activity" />
+        <activity android:name=".ZakachkaActivity" />
+        <activity android:name=".Konveyer9Activity" />
+        <activity android:name=".Konveyer10Activity" />
         <activity android:name=".Konveyer5Activity" />
         <activity android:name=".Elevator1Activity" />
         <activity android:name=".Konveyer4Activity" />
