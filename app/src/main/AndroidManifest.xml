@@ -9,7 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/NoActionBarTheme">
-        <activity android:name=".GreyfernyPodyomActivity"></activity>
+        <activity android:name=".Konveyer10Activity"></activity>
+        <activity android:name=".Konveyer5Activity" />
+        <activity android:name=".Elevator1Activity" />
+        <activity android:name=".Konveyer4Activity" />
+        <activity android:name=".Konveyer2Activity" />
+        <activity android:name=".Konveyer1Activity" />
+        <activity android:name=".ZapuskPerekachkiActivity" />
+        <activity android:name=".PerekachkaActivity" />
+        <activity android:name=".VU25Activity" />
+        <activity android:name=".VU24Activity" />
+        <activity android:name=".VU7Activity" />
+        <activity android:name=".VU3Activity" />
+        <activity
+            android:name=".VU2Activity"
+            android:label="@string/title_activity_vu2"
+            android:theme="@style/NoActionBarTheme.NoActionBar" />
+        <activity android:name=".VentilyaciiActivity" />
+        <activity android:name=".GreyfernyPodyomActivity" />
         <activity android:name=".GreyfernySilaActivity" />
         <activity android:name=".GreyfernyeOperaActivity" />
         <activity android:name=".GreyfernyeKranyActivity" />

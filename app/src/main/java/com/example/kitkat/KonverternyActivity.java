@@ -10,7 +10,7 @@ import android.widget.ListView;
 
 public class KonverternyActivity extends AppCompatActivity {
 
-    ListView menu2;
+    ListView konverterny;
 
 
     @Override
@@ -18,13 +18,13 @@ public class KonverternyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_konverterny);
 
-        menu2 = (ListView) findViewById(R.id.menu2);
+        konverterny = (ListView) findViewById(R.id.konverterny);
 
         ArrayAdapter<CharSequence> adapter2 = ArrayAdapter.createFromResource(
                 this, R.array.uchastkiKonverterny, android.R.layout.simple_list_item_1);
-        menu2.setAdapter(adapter2);
+        konverterny.setAdapter(adapter2);
 
-        menu2.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        konverterny.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
                 if(id == 0){

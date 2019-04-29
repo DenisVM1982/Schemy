@@ -30,6 +30,12 @@ public class PressovyActivity extends AppCompatActivity {
                 if(id == 0){
                     Intent intent = new Intent(PressovyActivity.this, PictureActivity.class);
                     startActivity(intent);}
+                if(id == 3){
+                    Intent intent = new Intent(PressovyActivity.this, PerekachkaActivity.class);
+                    startActivity(intent);}
+                if(id == 4){
+                    Intent intent = new Intent(PressovyActivity.this, VentilyaciiActivity.class);
+                    startActivity(intent);}
 
             }
         });
