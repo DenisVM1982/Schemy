@@ -8,31 +8,29 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class PressovyActivity extends AppCompatActivity {
-
-    ListView pressovy;
+public class PoroshkiActivity extends AppCompatActivity {
+    ListView poroshki;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pressovy);
+        setContentView(R.layout.activity_poroshki);
 
-        pressovy= (ListView) findViewById(R.id.pressovy);
+        poroshki= (ListView) findViewById(R.id.poroshki);
 
-        ArrayAdapter<CharSequence> adapterPressovy = ArrayAdapter.createFromResource(
-                this, R.array.pressovy, android.R.layout.simple_list_item_1);
-        pressovy.setAdapter(adapterPressovy);
+        ArrayAdapter<CharSequence> adapterPoroshki = ArrayAdapter.createFromResource(
+                this, R.array.poroshki, android.R.layout.simple_list_item_1);
+        poroshki.setAdapter(adapterPoroshki);
 
-        pressovy.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        poroshki.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
                 if(id == 0){
-                    Intent intent = new Intent(PressovyActivity.this, PictureActivity.class);
+                    Intent intent = new Intent(PoroshkiActivity.this, GreyfernyeKranyActivity.class);
                     startActivity(intent);}
 
             }
         });
     }
-
 }

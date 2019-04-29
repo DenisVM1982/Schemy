@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Схемы-0.22</string>
+    <string name="app_name">Схемы-0.33</string>
     <string-array name="ceh">
         <item>Конвертерный</item>
         <item>Доменный</item>
@@ -19,9 +19,19 @@
     <string-array name="kran">
         <item>механизм передвижения малой тележки</item>
         <item>механизм передвижения главной тележки</item>
-        <item>механизм малого подъемаи</item>
+        <item>механизм малого подъема</item>
         <item>механизм главного подъема</item>
         <item>ход моста</item>
+    </string-array>
+    <string-array name="greyfernyeKrany">
+        <item>оперативная схема</item>
+        <item>силовая схема</item>
+        <item>механизм подъема</item>
+
+    </string-array>
+    <string-array name="poroshki">
+        <item>Грейферные краны 10-4, 10-5</item>
+
     </string-array>
     <string-array name="pressovy">
         <item>Участок помола</item>

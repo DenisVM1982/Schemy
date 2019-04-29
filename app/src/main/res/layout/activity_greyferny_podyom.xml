@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BolshoyPodyomActivity">
+    tools:context=".GreyfernyPodyomActivity">
 
     <com.github.chrisbanes.photoview.PhotoView
-        android:id="@+id/bolshoy_podyom"
+        android:id="@+id/greyferny_podyom"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+
 
 </android.support.constraint.ConstraintLayout>

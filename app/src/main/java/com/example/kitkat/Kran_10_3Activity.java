@@ -34,6 +34,16 @@ public class Kran_10_3Activity extends AppCompatActivity {
                 if(id == 1){
                     Intent intent = new Intent(Kran_10_3Activity.this, HodBolshoyTelegiActivity.class);
                     startActivity(intent);}
+                if(id == 2){
+                    Intent intent = new Intent(Kran_10_3Activity.this, MalyPodyomActivity.class);
+                    startActivity(intent);}
+                if(id == 3){
+                    Intent intent = new Intent(Kran_10_3Activity.this, BolshoyPodyomActivity.class);
+                    startActivity(intent);}
+                if(id == 4){
+                    Intent intent = new Intent(Kran_10_3Activity.this, HodMostaActivity.class);
+                    startActivity(intent);}
+
 
             }
         });

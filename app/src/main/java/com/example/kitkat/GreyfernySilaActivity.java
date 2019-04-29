@@ -5,15 +5,15 @@ import android.os.Bundle;
 
 import com.github.chrisbanes.photoview.PhotoView;
 
-public class HodMostaActivity extends AppCompatActivity {
-
+public class GreyfernySilaActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hod_mosta);
+        setContentView(R.layout.activity_greyferny_sila);
 
-        PhotoView photoView = (PhotoView) findViewById(R.id.hod_mosta);
-        photoView.setImageResource(R.drawable.hod_mosta);
+
+        PhotoView photoView = (PhotoView) findViewById(R.id.greyferny_pzk_sila);
+        photoView.setImageResource(R.drawable.greyferny_pzk_sila);
     }
 }
