@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Схемы-0.37</string>
+    <string name="app_name">Схемы-0.38</string>
     <string-array name="ceh">
         <item>Конвертерный</item>
         <item>Доменный</item>
